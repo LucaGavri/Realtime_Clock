@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/FX_Site_Project.iml" filepath="$PROJECT_DIR$/.idea/FX_Site_Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Realtime_Clock.iml" filepath="$PROJECT_DIR$/.idea/Realtime_Clock.iml" />
     </modules>
   </component>
 </project>

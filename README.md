@@ -1,5 +1,6 @@
-#FX Site Project 
-This project is a realtime clock based on REACT.js structure.
+#Realtime Clock
+This project is based on REACT.js structure.
+Realtime clock based on js and css.
 
 
 ##Author:
