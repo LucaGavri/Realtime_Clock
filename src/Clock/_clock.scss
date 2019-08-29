@@ -1,10 +1,13 @@
 .clock {
   margin: 0 auto;
+  min-width: 100vw;
+  min-height: 100vh;
   font-family: 'Sarpanch', sans-serif;
 }
 
 .clock-day {
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background: linear-gradient(0, #0fd1ff, #ffffff);
   display: flex;
   flex-direction: column;
@@ -95,6 +98,7 @@
 
   p {
     margin: 0;
+
     color: #b4861f;
   }
 
@@ -201,6 +205,7 @@
 
 .switcher {
   margin-top: 60px;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -250,13 +255,16 @@
   }
 }
 
-.foot{
-  margin: 0;
-  position: absolute;
+.foot {
+  min-width: 90%;
+  min-height: 50px;
+  text-align: center;
   bottom: 5px;
-  left: 50%;
-  transform: translate(-50%);
   color: #b4861f;
+
+  p{
+    width: 100%;
+  }
 }
 
 
@@ -297,7 +305,7 @@
     }
 
     &:before {
-      background: #00aef3;
+      background: #00ffe8;
     }
   }
 
@@ -307,8 +315,93 @@
       text-shadow: 0 0 10px #00aef3;
     }
   }
-  .foot{
+
+  .foot {
     color: #00aef3;
+  }
+}
+
+@media (max-width: 460px) {
+  .clock-body {
+    width: 301px;
+    height: 301px;
+    border: 4px solid #f3bd21;
+
+    &:before {
+      height: 2px;
+      width: 2px;
+      border: 5px solid #b40e01;
+    }
+
+    .sec {
+      left: 150px;
+      height: 130px;
+      width: 1px;
+    }
+
+    .min {
+      left: 149px;
+      height: 130px;
+      width: 3px;
+    }
+
+    .hour {
+      left: 148px;
+      height: 100px;
+      width: 5px;
+    }
+  }
+
+  .number {
+    font-weight: 700;
+    font-size: 35px;
+
+    &:before {
+      height: 100px;
+    }
+  }
+
+  .switcher {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    input {
+      height: 30px;
+      width: 60px;
+
+      &:before {
+        height: 4px;
+        width: 4px;
+        border: 13px solid #b4861f;
+      }
+    }
+
+    input:checked {
+      box-shadow: 0 0 10px #00aef3;
+
+      &:before {
+        border: 13px solid #333;
+        left: 30px;
+      }
+    }
+
+    p {
+      font-size: 20px;
+    }
+  }
+
+  .clock-night {
+
+    .clock-body {
+      border: 4px solid #00aef3;
+
+      &:before {
+        border: 5px solid #ff0b00;
+      }
+    }
   }
 }
 

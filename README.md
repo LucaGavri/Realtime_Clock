@@ -1,4 +1,4 @@
-#Realtime Analog Clock
+#Realtime Analog Clock - day/night
 This project is based on REACT.js structure.
 Realtime clock based on js and css.
 
