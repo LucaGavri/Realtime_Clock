@@ -3,14 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="1058f8e1-8c21-4d1a-8132-3bc66f276f45" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/asset-manifest.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/favicon.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/precache-manifest.72c23d9c341ae3380aada78891073c3c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/precache-manifest.be2fe64b79f296578b412610b41aef25.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/service-worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/css/main.4b8a0abc.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/css/main.4b8a0abc.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/css/main.228afdfd.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/css/main.228afdfd.chunk.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/static/js/2.65aa1cca.chunk.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/static/js/2.65aa1cca.chunk.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/static/js/main.3f76bf5f.chunk.js" beforeDir="false" />
@@ -19,7 +18,6 @@
       <change beforePath="$PROJECT_DIR$/docs/static/js/runtime~main.d653cc00.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Clock/_clock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clock/_clock.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -36,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Clock/_clock.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
+            <state relative-caret-position="312">
               <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -48,17 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Clock/_clock.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="97" selection-start-line="97" selection-end-line="97" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="102">
+              <caret line="326" column="14" selection-start-line="326" selection-start-column="14" selection-end-line="326" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -94,8 +83,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/Clock/_clock.js" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/App.scss" />
         <option value="$PROJECT_DIR$/src/index.css" />
+        <option value="$PROJECT_DIR$/src/App.scss" />
         <option value="$PROJECT_DIR$/src/Clock/_clock.scss" />
       </list>
     </option>
@@ -140,7 +129,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FX_Site_Project" />
+    <property name="last_opened_file_path" value="$USER_HOME$/FX_Site_Project" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -191,12 +180,13 @@
       <workItem from="1564959416859" duration="15872000" />
       <workItem from="1566596708170" duration="18000" />
       <workItem from="1566596942112" duration="53000" />
-      <workItem from="1567088607656" duration="6118000" />
+      <workItem from="1567088607656" duration="6178000" />
+      <workItem from="1567118970303" duration="1858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112574000" />
+    <option name="totallyTimeSpent" value="114492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -213,7 +203,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5765472" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.6644951" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32938856" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -316,22 +306,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Clock/_clock.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Clock/_clock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -345,15 +335,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        <state relative-caret-position="24">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Clock/_clock.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        <state relative-caret-position="102">
+          <caret line="326" column="14" selection-start-line="326" selection-start-column="14" selection-end-line="326" selection-end-column="14" />
         </state>
       </provider>
     </entry>
