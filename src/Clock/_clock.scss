@@ -6,9 +6,11 @@
 }
 
 .clock-day {
-  width: 100vw;
-  height: 100vh;
-  padding-top: 50px;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 700px;
+  height: 100%;
+  padding-top: 30px;
   background: linear-gradient(0, #0fd1ff, #ffffff);
   display: flex;
   flex-direction: column;
