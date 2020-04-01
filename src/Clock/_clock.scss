@@ -265,8 +265,9 @@
   bottom: 5px;
   color: #b4861f;
 
-  p{
-    width: 100%;
+  a {
+    text-decoration: none;
+    color: #b4861f;
   }
 }
 
@@ -321,6 +322,11 @@
 
   .foot {
     color: #00aef3;
+
+    a{
+      text-decoration: none;
+      color: #00aef3;
+    }
   }
 }
 

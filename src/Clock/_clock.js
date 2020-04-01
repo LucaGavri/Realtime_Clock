@@ -16,7 +16,7 @@ class Clock extends Component {
             const min = realHour.getMinutes() * 60;
             const hour = realHour.getHours() * 3600;
 
-            console.log(hour,min,sec);
+            console.log(hour, min, sec);
 
             seconds.style.animationDelay = '-' + sec + 's';
             minutes.style.animationDelay = '-' + min + 's';
@@ -26,7 +26,7 @@ class Clock extends Component {
 
         const switcher = document.querySelector('#switch');
 
-        switcher.addEventListener('click', function(){
+        switcher.addEventListener('click', function () {
             document.querySelector('.clock-day').classList.toggle('clock-night');
         })
 
@@ -83,7 +83,9 @@ class Clock extends Component {
                         <input type="checkbox" id="switch" name="switch"/>
                         <p>day / night</p>
                     </div>
-                    <p className='foot'>&copy; 2019 Łukasz Gawryś, Made by LucaGavri</p>
+                    <p className='foot'>&copy; 2019 Łukasz Gawryś, Made by <a
+                        href="https://lucagavri.github.io/Portfolio_Website/" target="_blank"
+                        rel="noreferrer noopener">LucaGavri</a></p>
                 </div>
             </div>
         )
